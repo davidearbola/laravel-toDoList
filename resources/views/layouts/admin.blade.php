@@ -65,7 +65,8 @@
             </div>
         </nav>
 
-        <main class="bg-dark">
+        <main class="bg-dark p-3 container-fluid">
+            <h1 class="text-secondary">Project: ToDoList</h1>
             @yield('content')
         </main>
 
